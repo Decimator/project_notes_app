@@ -10,10 +10,11 @@ class home_page extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("WELCOME TO days FLUTTER"),
+          child: Text("WELCOME TO  FLUTTER"),
 
         ),
       ),
+
       drawer: Drawer(),
     );
   }
