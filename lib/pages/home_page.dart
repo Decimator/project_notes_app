@@ -6,16 +6,16 @@ class home_page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("PRACTICE BITCH"),
+        title: const Text("PRACTICE BITCH"),
       ),
       body: Center(
         child: Container(
-          child: Text("WELCOME TO  FLUTTER"),
+          child: const Text("WELCOME TO  FLUTTER"),
 
         ),
       ),
 
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
