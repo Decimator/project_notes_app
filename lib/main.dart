@@ -30,6 +30,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.homeRoute:(context)=>home_page(),
         MyRoutes.loginRoute:(context)=>login(),
 
+
       },
     );
   }
