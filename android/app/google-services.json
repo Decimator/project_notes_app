@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "765457727966",
+    "project_id": "tietproject",
+    "storage_bucket": "tietproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765457727966:android:0a3662d32a9845aab55d4f",
+        "android_client_info": {
+          "package_name": "com.example.untitled1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765457727966-uq6fhflg6losk20bo08n11baobeqcdjg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.untitled1",
+            "certificate_hash": "dd29679a08df0dda21349c1f619efc6cafd9d579"
+          }
+        },
+        {
+          "client_id": "765457727966-gccjik8nomcbq812mcegmp7tblgahtks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfyKqelqLG_Ja02XEWOEyOmSYMI34-4cc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765457727966-gccjik8nomcbq812mcegmp7tblgahtks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
