@@ -2,8 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:untitled1/pages/home_page.dart';
 import 'package:untitled1/pages/login.dart';
 import 'package:untitled1/utilities/routes.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
+
   runApp(MyApp());
 }
 
@@ -17,13 +22,9 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       //home: home_page(),
       themeMode: ThemeMode.light,
-      theme: ThemeData(
-        primarySwatch:Colors.purple
+      theme: ThemeData.dark().copyWith(
+        primaryColor: Colors.white,
       ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark
-
-      ) ,
 
       routes: {
         "/": (context)=>login(),
