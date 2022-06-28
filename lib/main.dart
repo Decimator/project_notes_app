@@ -20,19 +20,22 @@ class MyApp extends StatelessWidget {
     int days=30;
     String int1="aditya bhushan";
     return  MaterialApp(
-      //home: home_page(),
-      themeMode: ThemeMode.light,
+      title: "My Notes",
+      home: login(),
+      //themeMode: ThemeMode.light,
       theme: ThemeData.dark().copyWith(
         primaryColor: Colors.white,
+        accentColor: Colors.white,
+        scaffoldBackgroundColor: const  Color(0xff070706),
       ),
 
-      routes: {
+      /*routes: {
         "/": (context)=>login(),
         MyRoutes.homeRoute:(context)=>home_page(),
-        MyRoutes.loginRoute:(context)=>login(),
+        MyRoutes.loginRoute:(context)=>login(),*/
 
 
-      },
+
     );
   }
 }
