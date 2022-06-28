@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/pages/home_page.dart';
+//import 'package:untitled1/pages/home_page.dart';
 import 'package:untitled1/pages/login.dart';
-import 'package:untitled1/utilities/routes.dart';
+//import 'package:untitled1/utilities/routes.dart';
 import 'package:firebase_core/firebase_core.dart';
 
 Future<void> main() async {

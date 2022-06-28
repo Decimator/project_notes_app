@@ -17,6 +17,10 @@ class _AddNoteState extends State<AddNote> {
   Widget build(BuildContext context) {
     return SafeArea(child:
     Scaffold(
+      /*appBar: AppBar(
+        title: Text("aditya"),
+        backgroundColor: Colors.red,
+      ),*/
 
       body: SingleChildScrollView(
         child: Container(

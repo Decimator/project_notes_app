@@ -37,6 +37,12 @@ class _loginState extends State<login> {
               ),
             ),
           ),
+          Container(
+
+            child: const Text("By Aditya Bhushan (102153023)",style:
+              TextStyle(fontWeight: FontWeight.bold,
+              fontSize: 16),),
+          ),
           Padding(
             padding: const EdgeInsets.symmetric(
               horizontal: 10,
